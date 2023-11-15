@@ -3,17 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.wentong</groupId>
+        <artifactId>JYmq-core</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>com.wentong</groupId>
-    <artifactId>JYmq</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>JYmq-client</module>
-        <module>JYmq-common</module>
-        <module>JYmq-core</module>
-        <module>JYmq-server</module>
-    </modules>
+    <artifactId>JYmq-broker</artifactId>
 
     <properties>
         <maven.compiler.source>20</maven.compiler.source>
