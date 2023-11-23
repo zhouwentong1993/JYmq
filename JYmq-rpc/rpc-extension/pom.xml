@@ -3,20 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.wentong</groupId>
+        <artifactId>JYmq-rpc</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>com.wentong</groupId>
-    <artifactId>JYmq</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>rpc-extension</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>JYmq-client</module>
-        <module>JYmq-common</module>
-        <module>JYmq-server</module>
-        <module>JYmq-nameserver</module>
-        <module>JYmq-rpc</module>
-        <module>JYmq-test</module>
-        <module>JYmq-samples</module>
-        <module>JYmq-broker</module>
+        <module>rpc-extension-core</module>
+        <module>rpc-extension-serialization</module>
     </modules>
 
     <properties>
